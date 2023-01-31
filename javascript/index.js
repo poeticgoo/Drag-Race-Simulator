@@ -862,8 +862,13 @@ class GirlGroup {
             desc1[desc1["So Much Better Than You"] = 18] = "So Much Better Than You";
             desc1[desc1["Can I Get An Amen?"] = 19] = "Can I Get An Amen?";
             desc1[desc1["Oh No She Betta Don't!"] = 20] = "Oh No She Betta Don't!";
+            desc1[desc1["Pop Off Ate."] = 21] = "Pop Off Ate.";
+            desc1[desc1["Come Alive."] = 22] = "Come Alive.";
+            desc1[desc1["Titanic."] = 23] = "Titanic.";
+            desc1[desc1["2getha 4eva."] = 24] = "2getha 4eva.";
+            desc1[desc1["Bonjour, Hi."] = 25] = "Bonjour, Hi.";
         })(desc1 || (desc1 = {}));
-        description.innerHTML = "The remaining queens will record vocals and perform in a Girl Group number for the original song " + desc1[randomNumber(0, 20)] + ".";
+        description.innerHTML = "The remaining queens will record vocals and perform in a Girl Group number for the original song " + desc1[randomNumber(0, 25)] + ".";
     }
     rankPerformances() {
         for (let i = 0; i < currentCast.length; i++)
